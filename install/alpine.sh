@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo Installing requirements...
-apk add --no-cache wget
+apk add --no-cache wget bash
 
 wget -O /usr/local/bin/package https://github.com/broisvoldemort/package/raw/master/scripts/alpine/package.sh
 if [ $? -eq 0 ]; then
