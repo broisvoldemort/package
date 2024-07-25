@@ -2,7 +2,7 @@
 
 declare -A packages
 packages=(
-    ["nano"]=""
+    ["nano"]="https://github.com/broisvoldemort/package/raw/main/packages/alpine/nano"
 )
 
 install_package() {
