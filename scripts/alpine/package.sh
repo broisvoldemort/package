@@ -34,7 +34,7 @@ install_package() {
 }
 
 if [[ $# -ne 2 || "$1" != "install" ]]; then
-    echo "Usage: $0 install <package_name>"
+    echo "Usage: package install <package_name>"
     exit 1
 fi
 
