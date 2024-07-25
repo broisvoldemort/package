@@ -30,6 +30,7 @@ install_package() {
     chmod +x /usr/local/bin/"$file_name"
 
     echo "$package_name has been installed successfully."
+    echo "Just in case, please run 'chmod +x /usr/local/bin/<package_name>' to make it executable."
 }
 
 if [[ $# -ne 2 || "$1" != "install" ]]; then
