@@ -25,9 +25,9 @@ install_package() {
     fi
 
     echo "Moving $file_name to /usr/local/bin..."
-    sudo mv "$file_name" /usr/local/bin/
+    mv "$file_name" /usr/local/bin/
 
-    sudo chmod +x /usr/local/bin/"$file_name"
+    chmod +x /usr/local/bin/"$file_name"
 
     echo "$package_name has been installed successfully."
 }
