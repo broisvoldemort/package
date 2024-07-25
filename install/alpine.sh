@@ -3,7 +3,7 @@
 echo Installing requirements...
 apk add --no-cache wget bash
 
-wget -O /usr/local/bin/package https://github.com/broisvoldemort/package/raw/master/scripts/alpine/package.sh
+wget -O /usr/local/bin/package https://raw.githubusercontent.com/broisvoldemort/package/main/scripts/alpine/package.sh
 if [ $? -eq 0 ]; then
   chmod +x /usr/local/bin/package
   echo "Installed successfully."
