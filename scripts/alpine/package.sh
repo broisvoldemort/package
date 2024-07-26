@@ -18,7 +18,7 @@ install_package() {
     local file_name=$(basename "$file_url")
     
     echo "Downloading $package_name from $file_url..."
-    wget -O "$file_name" "$file_url"
+    wget -O "$file_name" "$file_url" --no-check-certificate
 
     if [[ $? -ne 0 ]]; then
         echo "Error: Failed to download $package_name."
