@@ -3,6 +3,7 @@
 declare -A packages
 packages=(
     ["nano"]="https://github.com/broisvoldemort/package/raw/main/packages/alpine/nano"
+    ["vim"]="https://github.com/broisvoldemort/package/raw/main/packages/alpine/vim"
 )
 
 install_package() {
